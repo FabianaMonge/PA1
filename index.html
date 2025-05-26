@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulce Tentación - Pastelería Artesanal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <!-- MENU -->
+        <header class="main-header">
+            <div class="logo">
+                <h1>Dulce Tentación</h1>
+                <p>Pastelería Artesanal</p>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="https://www.recetasdepostres.com" target="_blank">Recetas</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- CABECERa -->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h2>Delicias hechas con amor</h2>
+                <p>Descubre nuestros pasteles artesanales elaborados con ingredientes de primera calidad</p>
+                <a href="#productos" class="btn">Ver productos</a>
+            </div>
+        </section>
+
+        <!-- Productos -->
+        <section id="productos" class="products-section">
+            <h2 class="section-title">Nuestros Productos</h2>
+            <div class="products-grid">
+                <article class="product-card">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Pastel de chocolate">
+                    <h3>Pastel de Chocolate</h3>
+                    <p>Delicioso pastel de chocolate con relleno de crema y cubierta de ganache.</p>
+                    <span class="price">350soles</span>
+                </article>
+                
+                <article class="product-card">
+                    <img src="https://images.unsplash.com/photo-1558301211-0d8c8ddee6ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Cupcakes variados">
+                    <h3>Cupcakes Variados</h3>
+                    <p>Paquete de 6 cupcakes con diferentes sabores y decoraciones.</p>
+                    <span class="price">180soles</span>
+                </article>
+                
+                <article class="product-card">
+                    <img src="https://images.unsplash.com/photo-1562440499-64c9a111f713?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Galletas decoradas">
+                    <h3>Galletas Decoradas</h3>
+                    <p>Docena de galletas con diseños personalizados y diferentes sabores.</p>
+                    <span class="price">220soles</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- Nosotros -->
+        <section id="nosotros" class="about-section">
+            <div class="about-content">
+                <h2 class="section-title">Nuestra Historia</h2>
+                <p>Dulce Tentación nació en 2010 como un pequeño emprendimiento familiar. Hoy somos una pastelería reconocida por nuestra calidad y creatividad en cada producto.</p>
+                
+                <h3>Nuestros valores:</h3>
+                <ul class="values-list">
+                    <li>Ingredientes 100% naturales</li>
+                    <li>Elaboración artesanal</li>
+                    <li>Creatividad en cada diseño</li>
+                    <li>Atención personalizada</li>
+                </ul>
+                
+                <h3>Proceso de elaboración:</h3>
+                <ol class="process-list">
+                    <li>Selección de ingredientes</li>
+                    <li>Preparación de masas</li>
+                    <li>Horneado cuidadoso</li>
+                    <li>Decoración manual</li>
+                    <li>Control de calidad</li>
+                </ol>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1557844352-761f2565b576?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Interior de nuestra pastelería">
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="contact-section">
+            <h2 class="section-title">Contáctanos</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Información de contacto</h3>
+                    <p><strong>Dirección:</strong> Calle Dulce 123, Colonia Postres</p>
+                    <p><strong>Teléfono:</strong> (55) 1234 5678</p>
+                    <p><strong>Horario:</strong> Lunes a Sábado 9:00 - 20:00 hrs</p>
+                    
+                    <div class="social-media">
+                        <h4>Síguenos:</h4>
+                        <a href="https://facebook.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook"></a>
+                        <a href="https://instagram.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></a>
+                        <a href="https://whatsapp.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp"></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Envíanos un mensaje</h3>
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono:</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+                
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.888244552543!2d-99.1678265845336!3d19.42702074620239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35f5bd1563%3A0x6c366f0e2de02ff7!2sEl%20Moro%20Churrer%C3%ADa!5e0!3m2!1ses!2smx!4v1623284257143!5m2!1ses!2smx" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- PIE -->
+        <footer class="main-footer">
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Menú</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="link-group">
+                    <h4>Productos</h4>
+                    <ul>
+                        <li><a href="#">Pasteles</a></li>
+                        <li><a href="#">Cupcakes</a></li>
+                        <li><a href="#">Galletas</a></li>
+                        <li><a href="#">Postres</a></li>
+                    </ul>
+                </div>
+                
+                <div class="link-group">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Aviso de privacidad</a></li>
+                        <li><a href="#">Política de cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-copyright">
+                <p>&copy; 2023 Dulce Tentación - Todos los derechos reservados</p>
+                <p>Sitio web desarrollado por [Tu Nombre]</p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
